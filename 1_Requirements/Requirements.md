@@ -14,6 +14,13 @@ This system supports following types of data conversions:
 
 
 **SWOT Analysis:** 
+
+
+
+
+
+
+
 ![image](https://github.com/Madhuraaaaa/StepIn-Mini-project/blob/main/1_Requirements/SWOT%20Analysis.png)
 
 
