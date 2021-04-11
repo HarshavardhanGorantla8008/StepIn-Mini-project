@@ -2,13 +2,8 @@
 
 
 
-FROM 	TO	TYPE
-Decimal 	Binary	Number system with base 2
-Decimal 	Octal	Number system with base 8
-Decimal 	Hexadecimal	Number system with base 16
-Decimal 	Binary Coded Decimal (BCD)	Coding method
-Decimal 	Excess-3	Coding method
-Decimal 	Gray 	Coding method
+
+
 ![image](https://user-images.githubusercontent.com/80566521/114318753-16e67380-9b2c-11eb-8b23-4bc4af3ca7fa.png)
 
 
