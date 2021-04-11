@@ -13,7 +13,11 @@
 #include <stdlib.h>
 #include "C:\Users\Madhura\Desktop\C PROGRAMMING\Project_trial\StepIn-Mini-project\Implement\src/binary.h"
 #include "C:\Users\Madhura\Desktop\C PROGRAMMING\Project_trial\StepIn-Mini-project\Implement\src/octal.h"
+<<<<<<< HEAD
 #include "C:\Users\Madhura\Desktop\C PROGRAMMING\Project_trial\StepIn-Mini-project\Implement\src/hexadecimal.h"
+=======
+#include "C:\Users\Madhura\Desktop\C PROGRAMMING\Project_trial\StepIn-Mini-project\implement\src/hexadecimal.h"
+>>>>>>> 7d9109cdac04c19ad423592ce5067ffe1b692d6a
 #include "C:\Users\Madhura\Desktop\C PROGRAMMING\Project_trial\StepIn-Mini-project\Implement\src/bcd.h"
 #include "C:\Users\Madhura\Desktop\C PROGRAMMING\Project_trial\StepIn-Mini-project\Implement\src/xs.h"
 #include "C:\Users\Madhura\Desktop\C PROGRAMMING\Project_trial\StepIn-Mini-project\Implement\src/gray.h"
