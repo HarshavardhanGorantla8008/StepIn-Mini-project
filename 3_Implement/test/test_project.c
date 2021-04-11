@@ -11,13 +11,13 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-#include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\Implement\src/binary.h"
-#include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\Implement\src/octal.h"
-#include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\Implement\src/hexadecimal.h"
-#include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\Implement\src/bcd.h"
-#include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\Implement\src/xs.h"
-#include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\Implement\src/gray.h"
-#include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\Implement\unity/unity.h"
+#include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\3_Implement\src/binary.h"
+#include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\3_Implement\src/octal.h"
+#include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\3_Implement\src/hexadecimal.h"
+#include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\3_Implement\src/bcd.h"
+#include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\3_Implement\src/xs.h"
+#include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\3_Implement\src/gray.h"
+#include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\3_Implement\unity/unity.h"
 
 
 /**
