@@ -4,6 +4,7 @@
 
 
 **Features:**
+
 This system supports following types of data conversions: 
 
 
@@ -11,6 +12,19 @@ This system supports following types of data conversions:
 
 
 ![image](https://user-images.githubusercontent.com/80566521/114318753-16e67380-9b2c-11eb-8b23-4bc4af3ca7fa.png)
+
+
+
+**Research:**
+
+
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/80566521/114319584-bbb68000-9b2f-11eb-9044-67c8093a5842.png)
+
 
 
 **SWOT Analysis:** 
