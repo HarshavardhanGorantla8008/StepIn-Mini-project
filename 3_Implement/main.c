@@ -16,6 +16,7 @@
 #include "src/bcd.h"
 #include "src/xs.h"
 #include "src/gray.h"
+#include <stdlib.h>
 
 /**
  * @brief Main function
@@ -56,6 +57,7 @@ int main()
     {
         printf("%d", *(res_oct.octal_op + i));
     }
+    free(res_oct.octal_op);
     
     /**
      * @brief Hexadecimal conversion code
@@ -72,6 +74,7 @@ int main()
     {
         printf("%c", *(res_hexa.hexadecimal_op + i));
     }
+    free(res_hexa.hexadecimal_op);
 
     /**
      * @brief BCD conversion code
@@ -87,6 +90,7 @@ int main()
     {
         printf("%d", *(res_bcd.bcd_op + i));
     }
+    free(res_bcd.bcd_op);
 
     /**
      * @brief XS-3 conversion code
@@ -102,6 +106,7 @@ int main()
     {
         printf("%d", *(res_xs.xs_op + i));
     }
+    free(res_xs.xs_op);
 
     /**
      * @brief Gray conversion code
@@ -117,4 +122,5 @@ int main()
     {
         printf("%d", *(res_gray.gray_op + i));
     }
+    free(res_gray.gray_op);
 }

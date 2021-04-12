@@ -38,7 +38,7 @@ Conversion_bin transformBinary(Input_bin a)
     int num = a.num, b = a.base;
     int k = 0, store_num = num;
     Conversion_bin res;
-    res.binary_op=(int*)malloc(30*sizeof(int));
+    res.binary_op=(int*)malloc(50*sizeof(int));
     while (num != 0)
     {
         *(res.binary_op+k) = num % b;

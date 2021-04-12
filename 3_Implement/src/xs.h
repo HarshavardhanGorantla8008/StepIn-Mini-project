@@ -9,13 +9,14 @@
  * 
  */
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * @brief Structures for storing the input & output stream
  * 
  */
 typedef struct Conversion_xs
 {
-    int xs_op[50];
+    int *xs_op;
     int arr_l;
 } Conversion_xs;
 typedef struct Input_xs
@@ -36,6 +37,7 @@ Conversion_xs transformXS(Input_xs a)
     int i = 0, store_num = num;
     int arr[5];
     Conversion_xs res;
+    res.xs_op=(int*)malloc(50*sizeof(int));
     while (num != 0)
     {
         arr[i++] = (num % 10) + 3;
@@ -48,13 +50,15 @@ Conversion_xs transformXS(Input_xs a)
         while (*(arr + j) != 0)
         {
             k--;
-            res.xs_op[c++] = *(arr + j) % 2;
+            *(res.xs_op + c) = *(arr + j) % 2;
             *(arr + j) = *(arr + j) / 2;
+            c++;
         }
 
         while (k--)
         {
-            res.xs_op[c++] = 0;
+            *(res.xs_op + c) = 0;
+            c++;
         }
     }
     res.arr_l = c;
@@ -62,10 +66,10 @@ Conversion_xs transformXS(Input_xs a)
     {
         int k = 4;
         res.arr_l = k;
-        res.xs_op[0] = 1;
-        res.xs_op[1] = 1;
-        res.xs_op[2] = 0;
-        res.xs_op[3] = 0;
+        *(res.xs_op) = 1;
+        *(res.xs_op + 1) = 1;
+        *(res.xs_op + 2) = 0;
+        *(res.xs_op + 3) = 0;
     }
     return res;
 }

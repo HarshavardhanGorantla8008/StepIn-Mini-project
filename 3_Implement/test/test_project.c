@@ -18,8 +18,6 @@
 #include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\3_Implement\src/xs.h"
 #include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\3_Implement\src/gray.h"
 #include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\3_Implement\unity/unity.h"
-
-
 /**
  * @brief Set the Up object
  * 
