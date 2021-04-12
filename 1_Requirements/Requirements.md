@@ -10,6 +10,10 @@ This system supports following types of data conversions (For positive integers)
 
 ![image](https://user-images.githubusercontent.com/80566521/114318753-16e67380-9b2c-11eb-8b23-4bc4af3ca7fa.png)
 
+## Defining Our System
+
+![image](https://github.com/Madhuraaaaa/StepIn-Mini-project/blob/main/1_Requirements/SYSTEM_DEFINITION.png)
+
 ## Research:
 
 
