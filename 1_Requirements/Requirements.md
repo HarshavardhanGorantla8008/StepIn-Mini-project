@@ -36,7 +36,7 @@ This system supports following types of data conversions (For positive integers)
 |14	|1110|	16|	E|
 |15	|1111|	17|	F|
 
-![image](https://github.com/Madhuraaaaa/StepIn-Mini-project/blob/main/1_Requirements Table-Listing-Binary-Gray-BCD-Express-3-Coding-Decimal-Digits.jpg)
+![image](https://github.com/Madhuraaaaa/StepIn-Mini-project/blob/main/1_Requirements/Table-Listing-Binary-Gray-BCD-Express-3-Coding-Decimal-Digits.jpg)
 ## SWOT Analysis: 
 
 
