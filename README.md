@@ -13,9 +13,9 @@
 
 ## Contributors List and Summary
 
-PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
--------|---------|----------------|----------------|---------------|-------------|--------------
-`260459` | Madhura Khedekar  | Feature A, B etc    | X No     | X No   | 6   | 6     
+|PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|`260459` | Madhura Khedekar  | Complete project   | X No     | X No   | 6   | 6     |
     
 
 ## Challenges Faced and How Was It Overcome
