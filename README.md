@@ -4,6 +4,9 @@
 
 **Folder structure:**
 
-
-
-![image](https://user-images.githubusercontent.com/80566521/114320036-ba865280-9b31-11eb-9e5e-7174038183b9.png)
+| Folder | Description |
+| :---: | :---: |
+| 1_Requirements | Documents detailing requirements and research |
+| 2_Design | Documents specifying design details |
+| 3_Implement | All code and documentation |
+| 4_TestOutputs/Plan | Documents with test plans and procedures |
