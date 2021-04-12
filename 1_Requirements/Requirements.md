@@ -75,10 +75,11 @@ This project can perform various calculations at the same and make user's task s
 | ID | Description | Status (Implemented/Future)|
 |:---:|:---:|:---:|
 |HLR-1| User shall be able to convert data from decimal system to another |Implemented|
-|HLR-2| User shall be able to read the output data|Implemented|
-|HLR-3| System output must display data without any error |Implemented|
-|HLR-4| User shall be able to convert data between any number systems|Future|
-|HLR-5| User shall be able to convert a negative data value|Future|
+|HLR-2| System output must display data without any error |Implemented|
+|HLR-3| User shall be able to convert data between any number systems|Future|
+|HLR-4| User shall be able to convert a negative data value|Future|
 
 ##  Low level Requirements:
--- ID | Description | Status (Implemented/Future)
+| ID | Description | Status (Implemented/Future)|
+|:---:|:---:|:---:|
+|LLR-1|User shall be able to read the output data|Implemented| 
