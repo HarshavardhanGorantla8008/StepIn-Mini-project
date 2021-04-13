@@ -31,7 +31,7 @@ int main()
      */
     Input_bin bin;
     Conversion_bin res_bin;
-    bin.num = 0;
+    bin.num = 83;
     bin.base = 2;
     res_bin = transformBinary(bin);
     int u = res_bin.arr_l;
@@ -48,7 +48,7 @@ int main()
      */
     Input_oct oct;
     Conversion_oct res_oct;
-    oct.num = 0;
+    oct.num = 83;
     oct.base = 8;
     res_oct = transformOct(oct);
     int v = res_oct.arr_l;
@@ -65,7 +65,7 @@ int main()
      */
     Input_hex hexa;
     Conversion_hex res_hexa;
-    hexa.num = 0;
+    hexa.num = 83;
     hexa.base = 16;
     res_hexa = transformHexadecimal(hexa);
     int w = res_hexa.arr_l;
@@ -82,7 +82,7 @@ int main()
      */
     Input_bcd bcd;
     Conversion_bcd res_bcd;
-    bcd.num = 0;
+    bcd.num = 83;
     res_bcd = transformBcd(bcd);
     int x = res_bcd.arr_l;
     printf("\nBinary Coded Decimal (BCD) form: ");
@@ -98,7 +98,7 @@ int main()
      */
     Input_xs xs;
     Conversion_xs res_xs;
-    xs.num = 0;
+    xs.num = 83;
     res_xs = transformXS(xs);
     int y = res_xs.arr_l;
     printf("\nExcess-3 (XS-3) form: ");
@@ -114,7 +114,7 @@ int main()
      */
     Input_gray gray;
     Conversion_gray res_gray;
-    gray.num = 0;
+    gray.num = 83;
     res_gray = transformGray(gray);
     int z = res_gray.arr_l;
     printf("\nGray form: ");

@@ -1,1 +1,0 @@
-clang.exe -fsyntax-only -Xclang -ast-dump -fno-color-diagnostics -x c C:/Users/Madhura/Desktop/C PROGRAMMING/StepIn-Mini-project/3_Implement/src/test/test_project.c 2> C:/Users/Madhura/Desktop/C PROGRAMMING/StepIn-Mini-project/3_Implement/project_check-cppcheck-build-dir/test_project.a1.clang-stderr
