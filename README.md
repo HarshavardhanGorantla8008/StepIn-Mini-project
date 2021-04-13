@@ -26,7 +26,5 @@
 ## Learning Resources
 1. [gcc makefile](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html#zz-2.1)
 2. [pointers in c](https://www.freecodecamp.org/news/pointers-in-c-are-not-as-difficult-as-you-think/)
-3. [git inspector](https://github.com/ejwa/gitinspector.git)
-4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
-5. [Number system in digital elecronics](https://learnabout-electronics.org/Digital/dig11.php)
-6. [Dynamic memory allocation](https://www.programiz.com/c-programming/c-dynamic-memory-allocation)
+3. [Number system in digital elecronics](https://learnabout-electronics.org/Digital/dig11.php)
+4. [Dynamic memory allocation](https://www.programiz.com/c-programming/c-dynamic-memory-allocation)
