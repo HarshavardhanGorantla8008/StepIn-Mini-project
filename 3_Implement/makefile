@@ -6,7 +6,7 @@ BUILD_DIR = Build
 
 SRC = src/binary.h src/octal.h src/hexadecimal.h src/bcd.h src/xs.h src/gray.h
 
-TEST_SRC = test/test_project.c\
+TEST_SRC = test/test.c\
 unity/unity.c
 
 INC = -Iinc\
