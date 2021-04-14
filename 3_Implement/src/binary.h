@@ -9,7 +9,7 @@
  * 
  */
 #include <stdio.h>
-#include <stdlib.h>
+
 
 /**
  * @brief Structures for storing the input & output stream
