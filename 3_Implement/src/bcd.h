@@ -9,7 +9,6 @@
  * 
  */
 #include <stdio.h>
-#include <stdlib.h>
 typedef struct Conversion_bcd
 {
     int bcd_op[50];
