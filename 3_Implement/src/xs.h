@@ -16,7 +16,7 @@
  */
 typedef struct Conversion_xs
 {
-    int *xs_op;
+    int xs_op[50];
     int arr_l;
 } Conversion_xs;
 typedef struct Input_xs
@@ -37,7 +37,6 @@ Conversion_xs transformXS(Input_xs a)
     int i = 0, store_num = num;
     int arr[5];
     Conversion_xs res;
-    res.xs_op=(int*)malloc(50*sizeof(int));
     while (num != 0)
     {
         arr[i++] = (num % 10) + 3;

@@ -12,7 +12,7 @@
 #include <stdlib.h>
 typedef struct Conversion_bcd
 {
-    int *bcd_op;
+    int bcd_op[50];
     int arr_l;
 } Conversion_bcd;
 /**
@@ -38,7 +38,6 @@ Conversion_bcd transformBcd(Input_bcd a)
     int i = 0, store_num = num;
     int arr[5];
     Conversion_bcd res;
-    res.bcd_op=(int*)malloc(50*sizeof(int));
     while (num != 0)
     {
         arr[i++] = num % 10;

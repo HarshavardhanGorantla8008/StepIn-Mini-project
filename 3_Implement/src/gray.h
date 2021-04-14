@@ -16,7 +16,7 @@
  */
 typedef struct Conversion_gray
 {
-    int *gray_op;
+    int gray_op[50];
     int arr_l;
 } Conversion_gray;
 typedef struct Input_gray
@@ -37,7 +37,6 @@ Conversion_gray transformGray(Input_gray a)
     int arr[50];
     int k = 0, store_num = num;
     Conversion_gray res;
-    res.gray_op=(int*)malloc(50*sizeof(int));
     while (num != 0)
     {
         arr[k++] = num % 2;

@@ -16,7 +16,7 @@
  */
 typedef struct Conversion_hex
 {
-    char *hexadecimal_op;
+    char hexadecimal_op[50];
     int arr_l;
 } Conversion_hex;
 typedef struct Input_hex
@@ -37,7 +37,6 @@ Conversion_hex transformHexadecimal(Input_hex a)
     int num = a.num, b = a.base;
     int k = 0, store_num = num;
     Conversion_hex res;
-    res.hexadecimal_op=(char*)malloc(50*sizeof(char));
     while (num != 0)
     {
         if (num % b < 10)

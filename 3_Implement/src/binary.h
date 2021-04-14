@@ -17,7 +17,7 @@
  */
 typedef struct Conversion_bin
 {
-    int *binary_op;
+    int binary_op[50];
     int arr_l;
 } Conversion_bin;
 typedef struct Input_bin
@@ -38,7 +38,6 @@ Conversion_bin transformBinary(Input_bin a)
     int num = a.num, b = a.base;
     int k = 0, store_num = num;
     Conversion_bin res;
-    res.binary_op=(int*)malloc(50*sizeof(int));
     while (num != 0)
     {
         *(res.binary_op+k) = num % b;

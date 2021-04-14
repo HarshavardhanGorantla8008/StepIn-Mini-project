@@ -16,7 +16,7 @@
  */
 typedef struct Conversion_oct
 {
-    int *octal_op;
+    int octal_op[50];
     int arr_l;
 } Conversion_oct;
 typedef struct Input_oct
@@ -37,7 +37,6 @@ Conversion_oct transformOct(Input_oct a)
     int num = a.num, b = a.base;
     int k = 0, store_num = num;
     Conversion_oct res;
-    res.octal_op=(int*)malloc(50*sizeof(int));
     while (num != 0)
     {
         *(res.octal_op + k) = num % b;
