@@ -15,9 +15,9 @@ Build | Code Quality | Unity | [Git Inspector](using github.io option)
 
 ## Contributors List and Summary
 
-|PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass|
+|PS No. |  Name   |    Features    |No Test Cases|Test Case Pass|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|`260459` | Madhura Khedekar  | Complete project   | X No     | X No   | 6   | 6     |
+|`260459` | Madhura Khedekar  | Complete project   | 6   | 6     |
     
 
 ## Challenges Faced and How Was It Overcome
@@ -30,3 +30,5 @@ Build | Code Quality | Unity | [Git Inspector](using github.io option)
 2. [pointers in c](https://www.freecodecamp.org/news/pointers-in-c-are-not-as-difficult-as-you-think/)
 3. [Number system in digital elecronics](https://learnabout-electronics.org/Digital/dig11.php)
 4. [Dynamic memory allocation](https://www.programiz.com/c-programming/c-dynamic-memory-allocation)
+5. [git inspector](https://github.com/ejwa/gitinspector.git)
+6. [github workflow](https://docs.github.com/en/actions/learn-github-action)
