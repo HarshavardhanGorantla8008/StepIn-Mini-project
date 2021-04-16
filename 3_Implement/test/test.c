@@ -8,16 +8,15 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-#include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\3_Implement\src/binary.h"
-#include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\3_Implement\src/octal.h"
-#include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\3_Implement\src/hexadecimal.h"
-#include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\3_Implement\src/bcd.h"
-#include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\3_Implement\src/xs.h"
-#include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\3_Implement\src/gray.h"
-#include "C:\Users\Madhura\Desktop\C PROGRAMMING\StepIn-Mini-project\3_Implement\unity/unity.h"
+#include "../src/binary.h"
+#include "../src/octal.h"
+#include "../src/hexadecimal.h"
+#include "../src/bcd.h"
+#include "../src/xs.h"
+#include "../src/gray.h"
+#include "../unity/unity.h"
 /**
  * @brief Set the Up object
  * 

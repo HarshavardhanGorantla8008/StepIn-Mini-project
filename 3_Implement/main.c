@@ -31,6 +31,7 @@ int main()
     int temp;
     printf("Enter the input number which has to be converted: \n");
     scanf("%d", &temp);
+    printf("\nOUTPUTS:\n\n");
     Input_bin bin;
     Conversion_bin res_bin;
     bin.num=temp;
