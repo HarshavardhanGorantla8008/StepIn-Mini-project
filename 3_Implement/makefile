@@ -12,6 +12,7 @@ unity/unity.c
 INC = -Iinc\
 -Iunity
 
+GC-SRC = test.c
 #To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
 ifdef OS
    RM = del /q
@@ -42,6 +43,19 @@ coverageCheck:$(BUILD)
 	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(INC) -o $(TEST_PROJ_NAME)
 	./$(TEST_PROJ_NAME)
 
+cp test/test.c .
+	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T) unity/unity.c test.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC))
+	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC))
+	gcov -a $(GC-SRC)
+	$(RM) *.$(EXEC)
+	$(RM) *.gcda
+	$(RM) *.gcno
+	$(RM) *.c.gcov
+	$(RM) *.DAT
+	$(RM) test.c
+
+valgrind:
+	valgrind ./$(TEST_PROJ_NAME).$(EXEC)
 
 clean:
 	$(RM) $(call FixPath,$(BUILD_DIR)/*)
