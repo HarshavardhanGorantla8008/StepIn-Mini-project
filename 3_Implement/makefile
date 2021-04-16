@@ -49,9 +49,6 @@ doc:
 $(BUILD_DIR):
 	mkdir $(BUILD_DIR)
 
-valgrind:
-	valgrind ./$(TEST_PROJ_NAME).$(EXEC)
-
 clean:
 	$(RM) $(call FixPath,$(BUILD_DIR)/*)
 	make clean -C doc
