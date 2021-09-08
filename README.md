@@ -17,7 +17,7 @@ Build | Code Quality | Unity | [Git Inspector](using github.io option)
 
 |PS No. |  Name   |    Features    |No Test Cases|Test Case Pass|
 |:---:|:---:|:---:|:---:|:---:|
-|`260459` | Madhura Khedekar  | Complete project   | 6   | 6     |
+|`99006118` | Harshavardhan Gorantla  | Complete project   | 6   | 6     |
     
 
 ## Challenges Faced and How Was It Overcome
